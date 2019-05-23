@@ -175,8 +175,8 @@ a:active {
 
   section.resume-section {
       border-bottom: 1px solid #dee2e6;
-      padding-top: 5rem !important;
-      padding-bottom: 5rem !important;
+      padding-top: 1rem !important;
+      padding-bottom: 1rem !important;
   }
 
   section.resume-section .resume-item .resume-date {
@@ -185,7 +185,7 @@ a:active {
 
   @media (min-width: 768px) {
       section.resume-section {
-          min-height: 100vh;
+          min-height: 10vh;
       }
       section.resume-section .resume-item .resume-date {
           min-width: 18rem;
@@ -194,8 +194,8 @@ a:active {
 
   @media (min-width: 992px) {
       section.resume-section {
-          padding-top: 3rem !important;
-          padding-bottom: 3rem !important;
+          padding-top: 1rem !important;
+          padding-bottom: 1rem !important;
       }
   }
 
@@ -232,6 +232,7 @@ a:active {
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: none;
     color:#555;
+
   }
 
 /*====================================================
@@ -666,7 +667,10 @@ a:active {
 ======================================================*/
 
 #contact{
-  padding: 50px 0;
+  padding: 10px 0;
+}
+#test_test{
+    padding: 1rem 0;
 }
 
 #contact .contact-cont h3{
@@ -701,7 +705,7 @@ a:active {
 }
 
 .contact-side-desc{
-    padding-top: 40px;
+    padding-top: 10px;
 } 
 
 .contact-box-desc h3{
