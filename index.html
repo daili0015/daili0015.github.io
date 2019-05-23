@@ -41,7 +41,7 @@
                     <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+                    <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -112,7 +112,7 @@
                   <div class="card mx-0 p-4 mb-5" style="height:280px; border-color: #17a2b8; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                       <div class=" resume-content mr-auto">
                           <h4 class="mb-3"><i class="fa fa-globe mr-3 text-info"></i> 商汤科技   见习研究员</h4>
-                          <p>  我于2019年3月加入商汤科技的超算与训练平台，参与研发商汤自研的深度学习框架parrots，维护目标检测框架mmdetection，参与维护公司内全部超算集群的环境自动安装、代码部署。期间学习了公司规范管理环境与代码的方式，深入了解了深度学习框架的背后实现机制，受益匪浅。</p>
+                          <p>  于2019年3月加入商汤科技的超算与训练平台，参与研发商汤自研的深度学习框架parrots，维护目标检测框架mmdetection，参与维护公司内全部超算集群的环境自动安装、代码部署。期间学习了公司规范管理环境与代码的方式，深入了解了深度学习框架的背后实现机制，受益匪浅。</p>
                       </div>
                       <div class="resume-date text-md-right">
                           <span class="text-primary">2019年3月 -- 2019年6月</span>
@@ -129,7 +129,7 @@
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio"> 
           <div class="row my-auto">
               <div class="col-12">
-                <h2 class="  text-center">Portfolio</h2>
+                <h2 class="  text-center">Projects</h2>
                 <div class="mb-5 heading-border"></div>
               </div>
               <div class="col-md-12">
@@ -153,14 +153,14 @@
                   </a>
               </div>
 
-              <div class="col-sm-4 portfolio-item filter marketing">
-                  <a class="portfolio-link" href="#portfolioModal5" data-toggle="modal">
+              <div class="col-sm-4 portfolio-item filter DeepLearn">
+                  <a class="portfolio-link" href="#project2" data-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid" src="img/portfolio/p-5.jpg" alt="">
+                      <img class="img-fluid" src="img/portfolio/p2-show.jpg" alt="">
                   </a>
               </div>
 
@@ -313,7 +313,7 @@
                           <span class="date">2010年9月 - 2013年6月</span>
                           <h5 class="title">合肥一中</h5>
                           <p class="description">
-                              2010年5月，有幸通过了合肥一中的全省自主招生，从宿州赴合肥就学；2013年6月参加高考，于30万安徽理科考生中位列1241。
+                              2010年5月，通过合肥一中的全省自主招生，自宿州赴合肥就学；2013年参加高考，30万安徽理科考生位列1241。
                           </p>
                       </div>
                   </div>
@@ -322,23 +322,6 @@
           </div>
       </section> 
 
-<!--    &lt;!&ndash;====================================================-->
-<!--                          CONTACT-->
-<!--    ======================================================&ndash;&gt;       -->
-<!--      <section class="resume-section p-3 p-lg-5 d-flex flex-column">-->
-<!--          <div class="row my-auto" id="contact">-->
-<!--            <div class="col-md-20">-->
-
-<!--              <div class="contact-cont">-->
-<!--                <h3 id="test_test">CONTACT Me</h3>-->
-<!--                <div class="heading-border-light"></div>-->
-<!--                <p>  我现在在确定未来的工作，如果有招聘、项目/科研合作、代码索取方面的事宜，可以与我联系 </p>-->
-<!--              </div>   -->
-
-<!--            </div>-->
-
-<!--          </div>-->
-<!--      </section>-->
         <!--====================================================
                               CONTACT
         ======================================================-->
@@ -377,18 +360,16 @@
 <!--====================================================
                     PORTFOLIO MODALS
 ======================================================-->
-<!--    快速人脸风格迁移-->
+<!--    快速人脸风格类比-->
     <div class="portfolio-modal modal fade" id="project1" tabindex="-1" role="dialog" aria-hidden="true" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-
-
                 <div class="container">
                     <div class="row">
                         <div class="modal-body">
                             <div class="title-bar">
                                 <div class="col-md-12">
-                                    <h2 class="text-center">人脸风格类比</h2>
+                                    <h2 class="text-center">快速人脸风格类比</h2>
                                     <div class="heading-border"></div>
                                 </div>
                             </div>
@@ -396,13 +377,13 @@
                                 <div class="col-md-6">
                                     <img class="img-fluid img-centered" src="img/portfolio/Representative-Image.jpg" alt="">
                                 </div>
-                                <div class="col-md-6">
-                                    <p> <strong>开发环境:</strong> ubuntu16.04 cuda8.0 caffe opencv <br />
-                                        <strong>技术手段: </strong> GPU编程，cuda编程，图像算法，矩阵运算
-                                        <strong>主要内容: </strong> 将2张人脸图像（任意人脸A和参考风格B）送入VGG网络，获得其特征图（feature maps）；在特征图的语义对应区域执行patch-match算法，从而获得B到A的映射。利用该算法实现了众多人脸相关应用，包括换脸/美妆/风格化等等。该科研成果发表在人脸合成领域顶级会议FG2019。
+                                <div class="col-md-6" style="color:#000">
+                                    <p> <strong>开发环境:</strong> ubuntu16.04  cuda8.0  caffe  opencv <br />
+                                        <strong>技术手段: </strong> GPU编程，cuda编程，图像算法，矩阵运算 <br />
+                                        <strong>主要内容: </strong> 将2张人脸图像（任意人脸A和参考风格B）送入VGG网络，获得其特征图（feature maps）；在特征图的语义对应区域执行patch-match算法，从而获得B到A的映射。利用该算法实现了众多人脸相关应用，包括换脸/美妆/风格化等等。该科研成果发表在人脸合成领域顶级会议FG2019。 <br />
+                                        <strong>亮点难点：</strong> 整个项目涉及deep-patch-match、普式变换、WLS滤波、数值计算、超大稀疏矩阵分解等传统图像、工程矩阵，深度学习、cuda编程等众多领域的问题；需要实现者掌握众多领域的知识，并且具有很好的编程实现能力、逻辑能力、数学基础。 <br />
 
                                     </p>
-
                                     <ul class="list-inline item-details">
                                         <li>时间:
                                             <strong>
@@ -427,6 +408,50 @@
         </div>
     </div>
 
+
+    <!--    快速语义风格类比-->
+    <div class="portfolio-modal modal fade" id="project2" tabindex="-1" role="dialog" aria-hidden="true" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">快速语义风格类比</h2>
+                                    <div class="heading-border"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p2-pipeline.jpg" alt="">
+                                </div>
+                                <div class="col-md-6" style="color:#000">
+                                    <p> <strong>开发环境:</strong> ubuntu16.04  cuda8.0  caffe  opencv <br />
+                                        <strong>技术手段: </strong> GPU编程，cuda编程，图像算法，矩阵运算 <br />
+                                        <strong>主要内容: </strong>
+                                        这是对《快速人脸风格类比》的进一步深入研究，我们希望把快速的语义风格类比从人脸领域推广到任意图像。人脸领域还有landmarks来帮助patch-match的加速与校准，我们急需一种技术手段作为任意图像的landmarks。我们创造性的提出了“语义超像素”这一概念，我们认为：把传统的超像素聚类运用在feature maps上面，就可以得到按照语义聚类的“语义超像素”，我们把相同语义的超像素当做是相同位置的landmarks，实现了对patch-match的加速。我们还提出了一种基于密集匹配的颜色迁移算法，可以在对应的语义区域实现精致的颜色迁移。 除此以外，我们还采用了kd-tree算法和pca降维。<br />
+                                        <strong>亮点难点：</strong> 我们提出了“语义超像素”和语义颜色迁移两种重要的技术手段，解决了任意图像的快速语义风格类比。该项目依然全部使用cuda和c++写成，对实现者的编程能力要求很高；其中众多idea也是天马行空，要求提出者有丰富的想象力<br />
+                                        <br />
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>时间:
+                                            <strong>
+                                                <a href="#">2018年11月-2019年1月</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                        <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true" >
       <div class="modal-dialog" role="document">
