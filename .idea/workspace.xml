@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2526eb72-0ecd-49b5-b57e-653038480103" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/流程.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/新建文本文档.txt" beforeDir="false" afterPath="$PROJECT_DIR$/新建文本文档.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="790" column="94" selection-start-line="790" selection-start-column="94" selection-end-line="790" selection-end-column="94" />
+            <state relative-caret-position="195">
+              <caret line="319" column="18" selection-start-line="319" selection-start-column="18" selection-end-line="319" selection-end-column="18" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -55,7 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>card</find>
       <find>card mx-0 p-4 mb-5</find>
       <find>contact</find>
       <find>resume-section</find>
@@ -85,6 +75,7 @@
       <find>project6</find>
       <find>project7</find>
       <find>project8</find>
+      <find>project9</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,7 +99,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="15" />
     <option name="y" value="30" />
     <option name="width" value="1890" />
@@ -119,6 +110,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,7 +122,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,12 +155,13 @@
       <workItem from="1558590298631" duration="21984000" />
       <workItem from="1558663900216" duration="4440000" />
       <workItem from="1558669098808" duration="3743000" />
-      <workItem from="1558677360317" duration="6725000" />
+      <workItem from="1558677360317" duration="6832000" />
+      <workItem from="1558687922678" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36892000" />
+    <option name="totallyTimeSpent" value="37023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -241,8 +233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="790" column="94" selection-start-line="790" selection-start-column="94" selection-end-line="790" selection-end-column="94" />
+        <state relative-caret-position="195">
+          <caret line="319" column="18" selection-start-line="319" selection-start-column="18" selection-end-line="319" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
