@@ -189,14 +189,14 @@
                   </a>
               </div>
 
-              <div class="col-sm-4 portfolio-item filter consulting">
-                  <a class="portfolio-link" href="#portfolioModal8" data-toggle="modal">
+              <div class="col-sm-4 portfolio-item filter DeepLearn filter cv">
+                  <a class="portfolio-link" href="#project5" data-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid" src="img/portfolio/p-8.jpg" alt="">
+                      <img class="img-fluid" src="img/portfolio/p5-show.jpg" alt="">
                   </a>
               </div>
               <div class="col-sm-4 portfolio-item filter finance">
@@ -509,7 +509,7 @@
     </div>
 
 
-    <!--    司法案件便捷管理-->
+    <!--    字符动画-->
     <div class="portfolio-modal modal fade" id="project4" tabindex="-1" role="dialog" aria-hidden="true" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -529,9 +529,9 @@
                                 <div class="col-md-6" style="color:#000">
                                     <p> <strong>开发环境:</strong> windows7&ubuntu16.04 java  swing python <br />
                                         <strong>技术手段: </strong> java-swing界面 python 视频解析 图像转文本 <br />
+                                        <strong>简要介绍: </strong> Life is not just about survival, but poetry and distance. This is a poem I wrote for my girlfriend.<br />
                                         <strong>主要内容: </strong>
-                                        Life is not just about survival, but poetry and distance. This is a poem <br />
-                                        I wrote for my girlfriend.整个程序先用python解析视频每一帧，然后二值化为1&0数据，我把0的地方用字符“L”代替，保存为txt文件。写一个精致的java-swing界面来播放这些字符文件，表现为字符动画，最后我写了一首诗放在最后。<br />
+                                        整个程序先用python解析视频每一帧，然后二值化为1&0数据，我把0的地方用字符“L”代替，保存为txt文件。写一个精致的java-swing界面来播放这些字符文件，表现为字符动画，最后我写了一首诗放在最后。<br />
                                         <strong>亮点难点：</strong> 不用多说，程序算法上，python、java、视频解析、字符串操作等等，什么都得会  <br />
                                     </p>
                                     <ul class="list-inline item-details">
@@ -559,57 +559,66 @@
     </div>
 
 
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <!--    换脸小程序-->
+    <div class="portfolio-modal modal fade" id="project5" tabindex="-1" role="dialog" aria-hidden="true" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
                 <div class="container">
-                <div class="row">
+                    <div class="row">
                         <div class="modal-body">
                             <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
-                                <div class="heading-border"></div>
-                              </div>
+                                <div class="col-md-12">
+                                    <h2 class="text-center">换脸小程序</h2>
+                                    <div class="heading-border"></div>
+                                </div>
                             </div>
                             <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/p-3.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                              </div>
-                          </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p-4show.gif" alt="">
+                                </div>
+                                <div class="col-md-6" style="color:#000">
+                                    <p> <strong>开发环境:</strong> ubuntu16.04 c++ opencv caffe 3dmm <br />
+                                        <strong>技术手段: </strong> 二维图像生成三维图像 计算机图形学 人脸建模 人脸渲染 泊松融合 <br />
+                                        <strong>主要内容: </strong>
+                                        这是一个企业项目，他们希望开发一种小程序，用户只需要上传自己的照片就可以看到自己穿上婚纱的样子。代码基于网上<a href="https://github.com/YuvalNirkin/face_swap">已有代码</a>进行改进，我的主要贡献包括：
+                                        1、把模特的人脸模型向量提前保存为txt文件，在需要的时候直接读取，为此自学了Qt，开发了手动矫正+保存的界面程序 2、改进了泊松融合算法，解决了部分区域过亮的问题 3、由于没有独立ip，我设计了使用ftp的方法，把算法处理部分与前端小程序对接起来
+                                        。<br />
+                                        <strong>亮点难点：</strong> 不用多说，程序算法上，python、java、视频解析、字符串操作等等，什么都得会  <br />
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>时间:
+                                            <strong>
+                                                <a>2017年7月 - 2018年2月</a>
+                                            </strong>
+                                        </li>
+
+                                        <li>展示:
+                                            <strong>
+                                                <a href="https://github.com/daili0015/daili0015.github.io/blob/master/files/court-java.pdf">算法说明文档</a>
+                                            </strong>
+                                        </li>
+                                        <li>部分代码:
+                                            <strong>
+                                                <a href="https://github.com/daili0015/ftp_manage">ftp部分</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+
+
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                        <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
+                            </div>
                         </div>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
+
+
+
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
