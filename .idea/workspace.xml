@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2526eb72-0ecd-49b5-b57e-653038480103" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/p-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/p-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/p-11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/p-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/p-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/p-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/p-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/p-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/portfolio/流程.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/新建文本文档.txt" beforeDir="false" afterPath="$PROJECT_DIR$/新建文本文档.txt" afterDir="false" />
     </list>
@@ -21,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="598" column="45" selection-start-line="598" selection-start-column="45" selection-end-line="598" selection-end-column="45" />
+            <state relative-caret-position="304">
+              <caret line="790" column="94" selection-start-line="790" selection-start-column="94" selection-end-line="790" selection-end-column="94" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -35,6 +42,10 @@
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,10 +55,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>网页模板</find>
-      <find>CONTACT</find>
-      <find>auto</find>
-      <find>ap/bootstrap.min.css:6: */:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#868e96;--gray-dark:#343a40;--primary:#007bff;--secondary:#868e96;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,Roboto,&quot;Helvetica Neue&quot;,Arial,sans-serif,&quot;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&quot;;--font-family-monospace:&quot;SFMon</find>
       <find>card</find>
       <find>card mx-0 p-4 mb-5</find>
       <find>contact</find>
@@ -74,6 +81,10 @@
       <find>project4</find>
       <find>home</find>
       <find>Home</find>
+      <find>project5</find>
+      <find>project6</find>
+      <find>project7</find>
+      <find>project8</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -153,12 +164,12 @@
       <workItem from="1558590298631" duration="21984000" />
       <workItem from="1558663900216" duration="4440000" />
       <workItem from="1558669098808" duration="3743000" />
-      <workItem from="1558677360317" duration="791000" />
+      <workItem from="1558677360317" duration="6725000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30958000" />
+    <option name="totallyTimeSpent" value="36892000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -230,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="598" column="45" selection-start-line="598" selection-start-column="45" selection-end-line="598" selection-end-column="45" />
+        <state relative-caret-position="304">
+          <caret line="790" column="94" selection-start-line="790" selection-start-column="94" selection-end-line="790" selection-end-column="94" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -244,6 +255,10 @@
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#8;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#9;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

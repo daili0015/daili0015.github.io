@@ -100,7 +100,7 @@
                 <div class="card mx-0 p-4 mb-5" style="height:280px; border-color: #ffc107; box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.21);">
                   <div class="resume-content mr-auto">
                       <h4 class="mb-3"><i class="fa fa-tencent-weibo text-warning"></i>  腾讯优图实验室   应用研究实习生</h4>
-                      <p> 我即将加入腾讯优图实验室，从事人脸合成领域的研究，期待实习过程的学习与收货！                                  </p>
+                      <p> 即将加入腾讯优图实验室，从事人脸领域的研究，期待实习过程的学习与收货！                                  </p>
                   </div>
                   <div class="resume-date text-md-right">
                       <span class="text-primary">2019年6月 -- 2019年9月</span>
@@ -139,6 +139,7 @@
                   <button class="btn btn-general btn-green filter-b" data-filter="Crawler">网页爬虫</button>
                   <button class="btn btn-general btn-green filter-b" data-filter="java">Java</button>
                     <button class="btn btn-general btn-green filter-b" data-filter="cv">图像处理</button>
+                    <button class="btn btn-general btn-green filter-b" data-filter="open">开源</button>
 
                 </div>
               </div>
@@ -199,46 +200,51 @@
                       <img class="img-fluid" src="img/portfolio/p5-show.jpg" alt="">
                   </a>
               </div>
-              <div class="col-sm-4 portfolio-item filter finance">
-                  <a class="portfolio-link" href="#portfolioModal9" data-toggle="modal">
+
+              <div class="col-sm-4 portfolio-item filter Crawler filter open">
+                  <a class="portfolio-link" href="#project6" data-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid" src="img/portfolio/p-9.jpg" alt="">
-                  </a>
-              </div>              
-              <div class="col-sm-4 portfolio-item filter marketing">
-                  <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
-                      <div class="caption-port">
-                          <div class="caption-port-content">
-                              <i class="fa fa-search-plus fa-3x"></i>
-                          </div>
-                      </div>
-                      <img class="img-fluid" src="img/portfolio/p-1.jpg" alt="">
+                      <img class="img-fluid" src="img/portfolio/p6-show.jpg" alt="">
                   </a>
               </div>
-              <div class="col-sm-4 portfolio-item filter marketing">
-                  <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
+
+              <div class="col-sm-4 portfolio-item filter DeepLearn filter cv filter open">
+                  <a class="portfolio-link" href="#project7" data-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid" src="img/portfolio/p-2.jpg" alt="">
+                      <img class="img-fluid" src="img/portfolio/p7.png" alt="">
                   </a>
               </div>
-              <div class="col-sm-4 portfolio-item filter finance">
-                  <a class="portfolio-link" href="#portfolioModal3" data-toggle="modal">
+
+              <div class="col-sm-4 portfolio-item filter cv filter open">
+                  <a class="portfolio-link" href="#project8" data-toggle="modal">
                       <div class="caption-port">
                           <div class="caption-port-content">
                               <i class="fa fa-search-plus fa-3x"></i>
                           </div>
                       </div>
-                      <img class="img-fluid" src="img/portfolio/p-3.jpg" alt="">
+                      <img class="img-fluid" src="img/portfolio/p8-show.gif" alt="">
                   </a>
-              </div> 
+              </div>
+
+              <div class="col-sm-4 portfolio-item filter open filter Crawler">
+                  <a class="portfolio-link" href="#project9" data-toggle="modal">
+                      <div class="caption-port">
+                          <div class="caption-port-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img class="img-fluid" src="img/portfolio/p9-show.gif" alt="">
+                  </a>
+              </div>
+
           </div>
       </section>
 
@@ -574,7 +580,7 @@
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <img class="img-fluid img-centered" src="img/portfolio/p-4show.gif" alt="">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p5-algh.jpg" alt="">
                                 </div>
                                 <div class="col-md-6" style="color:#000">
                                     <p> <strong>开发环境:</strong> ubuntu16.04 c++ opencv caffe 3dmm <br />
@@ -582,8 +588,7 @@
                                         <strong>主要内容: </strong>
                                         这是一个企业项目，他们希望开发一种小程序，用户只需要上传自己的照片就可以看到自己穿上婚纱的样子。代码基于网上<a href="https://github.com/YuvalNirkin/face_swap">已有代码</a>进行改进，我的主要贡献包括：
                                         1、把模特的人脸模型向量提前保存为txt文件，在需要的时候直接读取，为此自学了Qt，开发了手动矫正+保存的界面程序 2、改进了泊松融合算法，解决了部分区域过亮的问题 3、由于没有独立ip，我设计了使用ftp的方法，把算法处理部分与前端小程序对接起来
-                                        。<br />
-                                        <strong>亮点难点：</strong> 不用多说，程序算法上，python、java、视频解析、字符串操作等等，什么都得会  <br />
+                                        。左图展示的是泊松融合的过程。<br />
                                     </p>
                                     <ul class="list-inline item-details">
                                         <li>时间:
@@ -591,10 +596,9 @@
                                                 <a>2017年7月 - 2018年2月</a>
                                             </strong>
                                         </li>
-
                                         <li>展示:
                                             <strong>
-                                                <a href="https://github.com/daili0015/daili0015.github.io/blob/master/files/court-java.pdf">算法说明文档</a>
+                                                <a href="https://github.com/daili0015/daili0015.github.io/blob/master/files/face_swap.pdf">算法说明文档</a>
                                             </strong>
                                         </li>
                                         <li>部分代码:
@@ -603,8 +607,54 @@
                                             </strong>
                                         </li>
                                     </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                        <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
+    <!--    自动下载图片-->
+    <div class="portfolio-modal modal fade" id="project6" tabindex="-1" role="dialog" aria-hidden="true" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">自动下载图片</h2>
+                                    <div class="heading-border"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p6-show.jpg" alt="">
+                                </div>
+                                <div class="col-md-6" style="color:#000">
+                                    <p> <strong>开发环境:</strong> windows7 python webdriver <br />
+                                        <strong>技术手段: </strong> TCP协议管理下载 webdriver <br />
+                                        <strong>主要内容: </strong> 刚学完python就有机会接了一个活，下载某图像网站的300万张图。我使用8台电脑同步下载，用一台云服务器管理8台主机的任务；最后把结果拷贝在一起。<br />
+                                        <strong>难点亮点: </strong> 网站本身存在反爬虫机制，所以我使用了webdriver和动态ip；同时为了解决图片太多的问题，我自己使用tcp技术定义了管理规则，动态指挥武汉北京两地八台主机的下载任务。 <br />
+                                        <strong>更多项目: </strong> 我曾完成一个类似的<a href="https://github.com/daili0015/Download_1024">下载影视资源的项目</a>，曾经一度是我star最多的 <br />
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>时间:
+                                            <strong>
+                                                <a>2016年10月 - 2016年11月</a>
+                                            </strong>
+                                        </li>
+                                        <li>成果:
+                                            <strong>
+                                                <a href="https://github.com/daili0015/auto_download">代码</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
                                     <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
                                         <i class="fa fa-times"></i> Close
                                     </button>
@@ -618,313 +668,162 @@
     </div>
 
 
+    <!--    modelfeast-->
+    <div class="portfolio-modal modal fade" id="project7" tabindex="-1" role="dialog" aria-hidden="true" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">深度学习脚手架</h2>
+                                    <div class="heading-border"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p7-2.png" alt="">
+                                </div>
+                                <div class="col-md-6" style="color:#000">
+                                    <p> <strong>开发环境:</strong> python pytorch <br />
+                                        <strong>主要内容: </strong>
+                                        这是一个由我发起和维护的开源项目，目前是我github上start最多的一个仓库。这个项目基于pytorch，提供了全自动数据导入、模型生成/保存/训练/重载入等等操作，并且集成了主流的2D-CNN，3D-CNN的实现。现在已经在pipy官方库内，可以直接通过pip install modelfeast安装。 <br />
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>时间:
+                                            <strong>
+                                                <a>2019年1月 - 至今</a>
+                                            </strong>
+                                        </li>
+                                        <li>成果:
+                                            <strong>
+                                                <a href="https://github.com/daili0015/ModelFeast">代码</a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                        <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!--    modelfeast-->
+    <div class="portfolio-modal modal fade" id="project8" tabindex="-1" role="dialog" aria-hidden="true" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
                 <div class="container">
-                <div class="row">
+                    <div class="row">
                         <div class="modal-body">
                             <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
-                                <div class="heading-border"></div>
-                              </div>
+                                <div class="col-md-12">
+                                    <h2 class="text-center">代码查重（图像算法实现）</h2>
+                                    <div class="heading-border"></div>
+                                </div>
                             </div>
                             <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/p-4.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                              </div>
-                          </div>
+                                <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p8-show.gif" alt="">
+                                </div>
+                                <div class="col-md-6" style="color:#000">
+                                    <p> <strong>开发环境:</strong> ubuntu opencv c++ python <br />
+                                        <strong>主要内容: </strong> 起源于一次我的突发奇想，能不能把图像方法应用到非图像领域呢？这个项目中，我把代码转换成灰度图像，然后提取sift特征；我自己设计了匹配筛选方法，比较两份代码的相似度，判断是否存在抄袭。
+                                        <br />
+                                        <strong>亮点与特色:</strong> 成功实现之后，我发现这是个很奇妙的想法；或许以后我们可以把更多地图像方法运用到其他文本领域，或者反过来。 <br />
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>时间:
+                                            <strong>
+                                                <a>2018年5月 </a>
+                                            </strong>
+                                        </li>
+                                        <li>成果:
+                                            <strong>
+                                                <a href="https://github.com/daili0015/codes-checking">代码</a>
+                                            </strong>
+                                        </li>
+                                        <li>介绍:
+                                            <strong>
+                                                <a href="https://github.com/daili0015/codes-checking/blob/master/%E5%B1%95%E7%A4%BA%E7%AD%94%E8%BE%A9.pdf">答辩ppt</a>
+                                            </strong>
+                                        </li>
+
+                                    </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                        <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
+                            </div>
                         </div>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!--    断网重连-->
+    <div class="portfolio-modal modal fade" id="project9" tabindex="-1" role="dialog" aria-hidden="true" >
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
                 <div class="container">
-                <div class="row">
+                    <div class="row">
                         <div class="modal-body">
                             <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
-                                <div class="heading-border"></div>
-                              </div>
+                                <div class="col-md-12">
+                                    <h2 class="text-center">校园网断网重连</h2>
+                                    <div class="heading-border"></div>
+                                </div>
                             </div>
                             <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/p-5.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
+                                <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p9-show.gif" alt="">
+                                </div>
+                                <div class="col-md-6" style="color:#000">
+                                    <p> <strong>开发环境:</strong> ubuntu python <br />
+                                        <strong>主要内容: </strong>
+                                        实验室的电脑需要远程操控，但是校园网总是断线需要手动重连，于是我用爬虫写了一个自动重连的程序。 <br />
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>时间:
+                                            <strong>
+                                                <a>2018年3月 </a>
+                                            </strong>
+                                        </li>
+                                        <li>成果:
+                                            <strong>
+                                                <a href="https://github.com/daili0015/SEU_Net_Connect">代码</a>
+                                            </strong>
+                                        </li>
+                                        <li>介绍:
+                                            <strong>
+                                                <a href="https://blog.csdn.net/zcy0xy/article/details/78675334">博客介绍</a>
+                                            </strong>
+                                        </li>
+                                        <li>演示:
+                                            <strong>
+                                                <a href="https://www.bilibili.com/video/av16799631/">视频演示</a>
+                                            </strong>
+                                        </li>
+
+                                    </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                        <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
                             </div>
-                          </div>
                         </div>
+                    </div>
                 </div>
-            </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/p-6.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>    
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/p-7.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/p-8.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl"></div>
-                    </div>
-                </div>
-                <div class="container">
-                <div class="row">
-                        <div class="modal-body">
-                            <div class="title-bar">
-                              <div class="col-md-12">
-                                <h2 class="text-center">Our Project</h2>
-                                <div class="heading-border"></div>
-                              </div>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <img class="img-fluid img-centered" src="img/portfolio/p-9.jpg" alt="">
-                              </div>
-                              <div class="col-md-6">
-                                <p>Our new Project every processes had become fragmented; meaning quality and service were inconsistent. This lack of standardization was adversely impacting operating costs, productivity and customer satisfaction. For several years now Payfast has worked strategically with innovations as a means of developing new solutions, products and services. In line with this vision, Success was approached to find new payments solutions to offer Payfast customers on their website, including open invoice and partial payments options.</p>
-                                <ul class="list-inline item-details">
-                                    <li>Client:
-                                        <strong>
-                                          <a href="#">Techs Soft</a>
-                                        </strong>
-                                    </li>
-                                    <li>Date:
-                                        <strong>
-                                          <a href="#">April 2018</a>
-                                        </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                                          <a href="#">Web Development</a>
-                                        </strong>
-                                    </li>
-                                </ul>
-                                <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
-                                    <i class="fa fa-times"></i> Close
-                                </button>
-                            </div>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            </div>
-        </div>
-    </div>    
 
 
     <!-- Global javascript -->
