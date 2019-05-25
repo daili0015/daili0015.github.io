@@ -139,6 +139,7 @@
                   <button class="btn btn-general btn-green filter-b" data-filter="Crawler">网页爬虫</button>
                   <button class="btn btn-general btn-green filter-b" data-filter="java">Java</button>
                     <button class="btn btn-general btn-green filter-b" data-filter="cv">图像处理</button>
+                    <button class="btn btn-general btn-green filter-b" data-filter="medical ">AI医疗</button>
                     <button class="btn btn-general btn-green filter-b" data-filter="open">开源</button>
 
                 </div>
@@ -253,6 +254,17 @@
                           </div>
                       </div>
                       <img class="img-fluid" src="img/portfolio/p10-show.gif" alt="">
+                  </a>
+              </div>
+
+              <div class="col-sm-4 portfolio-item filter DeepLearn filter cv filter medical">
+                  <a class="portfolio-link" href="#project11" data-toggle="modal">
+                      <div class="caption-port">
+                          <div class="caption-port-content">
+                              <i class="fa fa-search-plus fa-3x"></i>
+                          </div>
+                      </div>
+                      <img class="img-fluid" src="img/portfolio/p11-show.gif" alt="">
                   </a>
               </div>
 
@@ -865,6 +877,56 @@
                                         <li>时间:
                                             <strong>
                                                 <a>2016年2月 </a>
+                                            </strong>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-general btn-white" type="button" data-dismiss="modal">
+                                        <i class="fa fa-times"></i> Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--    ct诊断-->
+    <div class="portfolio-modal modal fade" id="project11" tabindex="-1" role="dialog" aria-hidden="true" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="container">·
+                    <div class="row">
+                        <div class="modal-body">
+                            <div class="title-bar">
+                                <div class="col-md-12">
+                                    <h2 class="text-center">肝脏CT图像诊断</h2>
+                                    <div class="heading-border"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <img class="img-fluid img-centered" src="img/portfolio/p11.png" alt="">
+                                </div>
+                                <div class="col-md-6" style="color:#000">
+                                    <p> <strong>开发环境:</strong> ubuntu16.04 python pytorch opencv  <br />
+                                        <strong>简要介绍: </strong>
+                                        这是一个医学图像诊断比赛，我的最高名次是第三周周榜第9名，后来因为加入商汤，此比赛没再继续下去；给一些肝脏肿瘤的ct图像，诊断是良性还是恶性。 <br />
+                                        <strong>技术手段: </strong>
+                                        3D-CNN CT图像处理 图像分割 注意力机制 xgboost <br />
+                                        <strong>主要方法: </strong>
+                                        首先，由于给出的图像是CT图像，其格式为dcm，必须用专门的医学图像处理库来提取其中的图像信息以及患者的个人信息并合理的存储下来；原始图像非常不规范，需要根据具体情况进行自动的旋转、裁剪、分割、翻转等，这一部分对操作者的传统图像基础要求极高，特别是比赛规定不允许使用预训练模型来直接分割，所以分割部分完全采用了传统图像方法。单个数据为3维切片数据，因而使用了3D-CNN来训练，这里我使用了自己开发的开源库<a href="https://github.com/daili0015/ModelFeast">ModelFeast</a>来训练。最后值得一提的是，我们除了用了模型集成，还巧妙地把患者的年龄、性别、胖瘦等数字信息融入了图像数据中，显著提高了预测准确率。<br />
+                                    </p>
+                                    <ul class="list-inline item-details">
+                                        <li>时间:
+                                            <strong>
+                                                <a>2019年3月 </a>
+                                            </strong>
+                                        </li>
+                                        <li>成果:
+                                            <strong>
+                                                <a href="https://www.datafountain.cn/competitions/335/ranking?sch=weekly">第三周榜单第9名</a>
                                             </strong>
                                         </li>
                                     </ul>
