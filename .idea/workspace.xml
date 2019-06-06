@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2526eb72-0ecd-49b5-b57e-653038480103" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/img/portfolio/original/p3-show.gif" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/original/p3-show.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/portfolio/p3-show.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/portfolio/p3-show.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -119,6 +117,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,14 +140,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../daili0015" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -182,12 +180,13 @@
       <workItem from="1558760996375" duration="6236000" />
       <workItem from="1559016131324" duration="3173000" />
       <workItem from="1559353993735" duration="1857000" />
-      <workItem from="1559612047847" duration="2828000" />
+      <workItem from="1559612047847" duration="3351000" />
+      <workItem from="1559808640757" duration="25000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57578000" />
+    <option name="totallyTimeSpent" value="58126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
